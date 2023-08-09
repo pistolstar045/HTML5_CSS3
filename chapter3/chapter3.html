@@ -18,7 +18,7 @@
 　<main id="contents">
     <form id="entryForm" action="#" method="post">
     <p><strong><span class="require">*</span>は必須項目です。</strong></p>
-    <table border="1">
+    <table class="entryTable">
      <caption>猫ちゃんの情報</caption>
       <tr>
        <th>お名前*</th>
@@ -62,7 +62,7 @@
         <td><input type="file" name="photo"></td>
       </tr>
     </table>
-    <table border="1">
+    <table class="entryTable">
      <caption>飼い主さんの情報</caption>
       <tr>
        <th>お名前</th>
@@ -81,7 +81,7 @@
         <td><textarea name="comment" rows="4" cols="40"></textarea></td>
       </tr>
     </table>
-    <div>
+    <div class="entryBtns">
       <input type="reset" value="クリア">
       <input type="submit" value="投稿">
     </div>
