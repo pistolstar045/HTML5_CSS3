@@ -10,6 +10,7 @@ ul{
   list-style: none;
 }
 
+
 #wrap{
   width: 960px;
   margin: 0 auto;
@@ -23,12 +24,17 @@ ul{
 
 #footer{
   background-color: gold;
-  clear: both;
 }
 
-.box li{
-  float: left;
-  margin-right: 20px;
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box li {
+  width: 225px;
   margin-bottom: 20px;
+  border: 1px solid #666;
+  background: #ccc;
 }
-
